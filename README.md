@@ -1,13 +1,13 @@
-# 🍷 Wine Quality Classification — Machine Learning Project
+# Wine Quality Classification — UTS
 
 **Nama:** Hayu Dhiya Rahmadani  
 **NIM:** 2304020005
 
 ---
 
-## 📋 Deskripsi Proyek
+## 📋 Deskripsi
 
-Proyek ini bertujuan untuk membangun model klasifikasi kualitas anggur (*wine quality*) menggunakan berbagai algoritma *machine learning*. Dataset terdiri dari data kimiawi anggur beserta label kualitasnya (skala 0–10). Model yang dibangun akan mempelajari hubungan antara karakteristik kimia anggur dengan skor kualitasnya, lalu digunakan untuk memprediksi kualitas anggur pada data yang belum memiliki label.
+Soal ini bertujuan untuk membangun model klasifikasi kualitas anggur (*wine quality*) menggunakan berbagai algoritma *machine learning*. Dataset terdiri dari data kimiawi anggur beserta label kualitasnya (skala 0–10). Model yang dibangun akan mempelajari hubungan antara karakteristik kimia anggur dengan skor kualitasnya, lalu digunakan untuk memprediksi kualitas anggur pada data yang belum memiliki label.
 
 Proyek ini mencakup seluruh alur kerja *machine learning* secara end-to-end: mulai dari eksplorasi data, pembersihan, pemilihan fitur, pelatihan beberapa model, perbandingan performa, hingga prediksi akhir dan penyimpanan hasil.
 
@@ -16,7 +16,7 @@ Proyek ini mencakup seluruh alur kerja *machine learning* secara end-to-end: mul
 ## 📁 Struktur File
 
 ```
-├── wine_classification_Hayu_Dhiya_Rahmadani__005_.ipynb  # Notebook utama
+├── wine_classification_Hayu_Dhiya_Rahmadani__005_.ipynb   # Notebook utama
 ├── data_training.csv                                      # Dataset pelatihan (dengan label)
 ├── data_testing.csv                                       # Dataset pengujian (tanpa label)
 ├── hasil_prediksi.csv                                     # Output prediksi model
@@ -25,7 +25,7 @@ Proyek ini mencakup seluruh alur kerja *machine learning* secara end-to-end: mul
 
 ---
 
-## 🧰 Library yang Digunakan
+## Library yang Digunakan
 
 | Library | Kegunaan |
 |---|---|
@@ -33,7 +33,7 @@ Proyek ini mencakup seluruh alur kerja *machine learning* secara end-to-end: mul
 | `numpy` | Operasi numerik dan array |
 | `matplotlib` | Visualisasi data (grafik, plot) |
 | `seaborn` | Visualisasi statistik (heatmap, boxplot) |
-| `statsmodels` | Analisis statistik tambahan |
+| `s  tatsmodels` | Analisis statistik tambahan |
 | `scikit-learn` | Algoritma machine learning, evaluasi, dan tuning |
 
 ---
@@ -318,7 +318,3 @@ seaborn
 statsmodels
 scikit-learn
 ```
-
----
-
-*Proyek ini dibuat sebagai tugas mata kuliah Machine Learning — Hayu Dhiya Rahmadani (2304020005)*
