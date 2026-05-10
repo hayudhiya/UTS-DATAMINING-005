@@ -9,7 +9,7 @@
 
 Soal ini bertujuan untuk membangun model klasifikasi kualitas anggur (*wine quality*) menggunakan berbagai algoritma *machine learning*. Dataset terdiri dari data kimiawi anggur beserta label kualitasnya (skala 0–10). Model yang dibangun akan mempelajari hubungan antara karakteristik kimia anggur dengan skor kualitasnya, lalu digunakan untuk memprediksi kualitas anggur pada data yang belum memiliki label.
 
-Proyek ini mencakup seluruh alur kerja *machine learning* secara end-to-end: mulai dari eksplorasi data, pembersihan, pemilihan fitur, pelatihan beberapa model, perbandingan performa, hingga prediksi akhir dan penyimpanan hasil.
+Soal ini mencakup seluruh alur kerja *machine learning* secara end-to-end: mulai dari eksplorasi data, pembersihan, pemilihan fitur, pelatihan beberapa model, perbandingan performa, hingga prediksi akhir dan penyimpanan hasil.
 
 ---
 
@@ -235,7 +235,7 @@ Setelah semua model dievaluasi, akurasi masing-masing dibandingkan dalam satu ta
 
 ### Langkah 12 — Kesimpulan Pemilihan Model
 
-**Random Forest** dipilih sebagai model final berdasarkan bukti empiris dari perbandingan akurasi. Alasan teknis pemilihannya:
+**Random Forest** dipilih sebagai model final berdasarkan bukti empiris dari perbandingan akurasi (akurasi tertinggi dibanding model lainnya yaitu 64,73%). Alasan teknis pemilihannya:
 
 1. **Ensemble method** yang menggabungkan ratusan pohon → lebih akurat dan stabil
 2. **Tidak perlu normalisasi fitur** → praktis dan tidak memerlukan preprocessing tambahan
@@ -281,7 +281,7 @@ Hasil prediksi disimpan dalam file `hasil_prediksi.csv` dengan dua kolom: `Id` d
 | KNN (K=7) | Performa moderat; sensitif terhadap skala fitur |
 | Decision Tree (Default) | Rentan overfitting tanpa pembatasan kedalaman |
 | Decision Tree (Tuned) | Meningkat setelah GridSearchCV menemukan parameter optimal |
-| **Random Forest** | **Akurasi tertinggi** — dipilih sebagai model final |
+| **Random Forest** | **Akurasi tertinggi (64,73%)** — dipilih sebagai model final |
 
 > Nilai akurasi aktual masing-masing model dapat dilihat langsung di output notebook.
 
